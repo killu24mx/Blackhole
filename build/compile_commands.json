@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/animation.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/animation.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/animation.cpp",
+  "output": "CMakeFiles/main.dir/src/animation.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/background.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/background.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/background.cpp",
+  "output": "CMakeFiles/main.dir/src/background.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/blackhole.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/blackhole.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/blackhole.cpp",
+  "output": "CMakeFiles/main.dir/src/blackhole.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/bullet.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp",
+  "output": "CMakeFiles/main.dir/src/bullet.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/clockslow.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/clockslow.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/clockslow.cpp",
+  "output": "CMakeFiles/main.dir/src/clockslow.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/enemy.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/enemy.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/enemy.cpp",
+  "output": "CMakeFiles/main.dir/src/enemy.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/entity.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/entity.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/entity.cpp",
+  "output": "CMakeFiles/main.dir/src/entity.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/game.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp",
+  "output": "CMakeFiles/main.dir/src/game.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/hard.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/hard.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/hard.cpp",
+  "output": "CMakeFiles/main.dir/src/hard.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/health.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/health.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/health.cpp",
+  "output": "CMakeFiles/main.dir/src/health.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/main.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/mainwindow.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp",
+  "output": "CMakeFiles/main.dir/src/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/menu.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/menu.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/menu.cpp",
+  "output": "CMakeFiles/main.dir/src/menu.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/portal.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/portal.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/portal.cpp",
+  "output": "CMakeFiles/main.dir/src/portal.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/score.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/score.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/score.cpp",
+  "output": "CMakeFiles/main.dir/src/score.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/sounds.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp",
+  "output": "CMakeFiles/main.dir/src/sounds.cpp.o"
+},
+{
+  "directory": "/home/ilya/Projects/oldprojects/BlackholeRewrite/build",
+  "command": "/usr/bin/g++  -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include -g -o CMakeFiles/main.dir/src/spaceship.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/spaceship.cpp",
+  "file": "/home/ilya/Projects/oldprojects/BlackholeRewrite/src/spaceship.cpp",
+  "output": "CMakeFiles/main.dir/src/spaceship.cpp.o"
+}
+]
