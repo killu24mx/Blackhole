@@ -1,3 +1,0 @@
-/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles/main.dir
-/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles/edit_cache.dir
-/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles/rebuild_cache.dir
