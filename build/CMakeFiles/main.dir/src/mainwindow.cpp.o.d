@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/mainwindow.cpp.o: \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp \
+ /home/ilya/Projects/oldprojects/Blackhole/src/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/mainwindow.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/mainwindow.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \

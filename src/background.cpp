@@ -4,7 +4,7 @@ Background::Background():
     first(new sf::Sprite(Textures::_background()))
     ,second(new sf::Sprite(Textures::_background()))
 {
-    first->setPosition(0, -1080 * Desktop::k_y());
+    first->setPosition(0, -900 * Desktop::k_y());
     second->setPosition(0,0);
 }
 
@@ -25,7 +25,7 @@ void Background::update(int delta)
 
     if (first->getPosition().y >= 0)
     {
-        second->setPosition(0, -1200 * Desktop::k_y());//????
+        second->setPosition(0, -900 * Desktop::k_y());//????
         swap_sprites();
     }
 }

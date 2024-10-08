@@ -166,7 +166,7 @@ void Game::generate_clocks(unsigned int time)
 
 void Game::generate_bullets()
 {
-    sf::Vector2f pos(spaceship->get_position().x + 42 * Desktop::k_x(),spaceship->get_position().y);
+    sf::Vector2f pos(spaceship->get_position().x + spaceship->get_texture_geometry().width/2,spaceship->get_position().y);
     list_of_bullets.push_back(new Bullet(pos));
     player.bullets.play();
 }
@@ -251,7 +251,7 @@ void Game::collision(Spaceship *spaceship, Enemy *enemy, std::size_t pos)
 void Game::collision(Spaceship *spaceship, Portal *portal, std::size_t pos)
 {
     Vector2f old_pos = spaceship->get_position();
-    Vector2f new_pos = Vector2f(abs(old_pos.x - 1600 * Desktop::k_x()), old_pos.y);
+    Vector2f new_pos = Vector2f(std::abs(old_pos.x - 1600 * Desktop::k_x()), old_pos.y);
     spaceship->set_position(new_pos);
 }
 
@@ -302,11 +302,9 @@ void Game::slow(unsigned int time)
     static unsigned int start = 0;
     if(is_slowing){
         if(start == 0){
-            system("clear");
             start = time;
             game_speed /= GameParametrs::slowing_factor;
             boost = 0;
-            std::cout << "start slowing" << "\n";
         } 
         if(time - start > GameParametrs::slowning_time/GameParametrs::slowing_factor){
             is_slowing = false;
@@ -314,7 +312,6 @@ void Game::slow(unsigned int time)
             player.time_acceleration.play();
             start = 0;
             boost = GameParametrs::default_boost;
-            std::cout << "end slowing" << "\n";
         }
     }
  

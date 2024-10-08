@@ -1,8 +1,8 @@
 CMakeFiles/main.dir/src/bullet.cpp.o: \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp \
+ /home/ilya/Projects/oldprojects/Blackhole/src/bullet.cpp \
  /usr/include/stdc-predef.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/bullet.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/entity.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/bullet.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/entity.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -238,8 +238,8 @@ CMakeFiles/main.dir/src/bullet.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/13/iostream \
  /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/mainwindow.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/game_parametrs.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/mainwindow.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/game_parametrs.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \

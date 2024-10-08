@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/sounds.cpp.o: \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp \
+ /home/ilya/Projects/oldprojects/Blackhole/src/sounds.cpp \
  /usr/include/stdc-predef.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/sounds.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/sounds.h \
  /usr/include/SFML/Audio.hpp /usr/include/SFML/System.hpp \
  /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
  /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \

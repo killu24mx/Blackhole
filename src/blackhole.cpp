@@ -7,7 +7,7 @@ Blackhole::Blackhole(const sf::Vector2f& pos) :
 	,rotation_speed(DefaultEntitysSpeed::portal_rotation_speed)
 {
 	sprite.setTexture(Textures::_blackhole());
-	sprite.setOrigin(103 * Desktop::k_x(), 110*Desktop::k_x()); // 60 64
+	sprite.setOrigin(get_texture_geometry().width/2, get_texture_geometry().height/2); // 60 64
 	sprite.setPosition(pos);
 	sprite.setRotation(0.0f);
 	

@@ -62,6 +62,10 @@ public:
 
     friend class Animation;
 
+    sf::IntRect get_texture_geometry();
+
+    
+
 
 protected:
     sf::Sprite sprite;

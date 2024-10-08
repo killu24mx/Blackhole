@@ -58,6 +58,11 @@ void Entity::set_speed(float speed)
     this->speed = speed;
 }
 
+sf::IntRect Entity::get_texture_geometry()
+{
+    return this->sprite.getTextureRect();
+}
+
 void draw_entity(Entity *entity, sf::RenderWindow *window)
 {
     window->draw(entity->sprite);

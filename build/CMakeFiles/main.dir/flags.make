@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ilya/Projects/oldprojects/BlackholeRewrite/./include
+CXX_INCLUDES = -I/home/ilya/Projects/oldprojects/Blackhole/./include
 
 CXX_FLAGS = -g
 

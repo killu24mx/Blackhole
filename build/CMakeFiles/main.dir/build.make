@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilya/Projects/oldprojects/BlackholeRewrite
+CMAKE_SOURCE_DIR = /home/ilya/Projects/oldprojects/Blackhole
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilya/Projects/oldprojects/BlackholeRewrite/build
+CMAKE_BINARY_DIR = /home/ilya/Projects/oldprojects/Blackhole/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -70,242 +70,242 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/animation.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/animation.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/animation.cpp
+CMakeFiles/main.dir/src/animation.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/animation.cpp
 CMakeFiles/main.dir/src/animation.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/animation.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/animation.cpp.o -MF CMakeFiles/main.dir/src/animation.cpp.o.d -o CMakeFiles/main.dir/src/animation.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/animation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/animation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/animation.cpp.o -MF CMakeFiles/main.dir/src/animation.cpp.o.d -o CMakeFiles/main.dir/src/animation.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/animation.cpp
 
 CMakeFiles/main.dir/src/animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/animation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/animation.cpp > CMakeFiles/main.dir/src/animation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/animation.cpp > CMakeFiles/main.dir/src/animation.cpp.i
 
 CMakeFiles/main.dir/src/animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/animation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/animation.cpp -o CMakeFiles/main.dir/src/animation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/animation.cpp -o CMakeFiles/main.dir/src/animation.cpp.s
 
 CMakeFiles/main.dir/src/background.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/background.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/background.cpp
+CMakeFiles/main.dir/src/background.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/background.cpp
 CMakeFiles/main.dir/src/background.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/background.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/background.cpp.o -MF CMakeFiles/main.dir/src/background.cpp.o.d -o CMakeFiles/main.dir/src/background.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/background.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/background.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/background.cpp.o -MF CMakeFiles/main.dir/src/background.cpp.o.d -o CMakeFiles/main.dir/src/background.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/background.cpp
 
 CMakeFiles/main.dir/src/background.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/background.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/background.cpp > CMakeFiles/main.dir/src/background.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/background.cpp > CMakeFiles/main.dir/src/background.cpp.i
 
 CMakeFiles/main.dir/src/background.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/background.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/background.cpp -o CMakeFiles/main.dir/src/background.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/background.cpp -o CMakeFiles/main.dir/src/background.cpp.s
 
 CMakeFiles/main.dir/src/blackhole.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/blackhole.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/blackhole.cpp
+CMakeFiles/main.dir/src/blackhole.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/blackhole.cpp
 CMakeFiles/main.dir/src/blackhole.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/blackhole.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/blackhole.cpp.o -MF CMakeFiles/main.dir/src/blackhole.cpp.o.d -o CMakeFiles/main.dir/src/blackhole.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/blackhole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/blackhole.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/blackhole.cpp.o -MF CMakeFiles/main.dir/src/blackhole.cpp.o.d -o CMakeFiles/main.dir/src/blackhole.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/blackhole.cpp
 
 CMakeFiles/main.dir/src/blackhole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/blackhole.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/blackhole.cpp > CMakeFiles/main.dir/src/blackhole.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/blackhole.cpp > CMakeFiles/main.dir/src/blackhole.cpp.i
 
 CMakeFiles/main.dir/src/blackhole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/blackhole.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/blackhole.cpp -o CMakeFiles/main.dir/src/blackhole.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/blackhole.cpp -o CMakeFiles/main.dir/src/blackhole.cpp.s
 
 CMakeFiles/main.dir/src/bullet.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/bullet.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp
+CMakeFiles/main.dir/src/bullet.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/bullet.cpp
 CMakeFiles/main.dir/src/bullet.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/bullet.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/bullet.cpp.o -MF CMakeFiles/main.dir/src/bullet.cpp.o.d -o CMakeFiles/main.dir/src/bullet.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/bullet.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/bullet.cpp.o -MF CMakeFiles/main.dir/src/bullet.cpp.o.d -o CMakeFiles/main.dir/src/bullet.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/bullet.cpp
 
 CMakeFiles/main.dir/src/bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/bullet.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp > CMakeFiles/main.dir/src/bullet.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/bullet.cpp > CMakeFiles/main.dir/src/bullet.cpp.i
 
 CMakeFiles/main.dir/src/bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/bullet.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/bullet.cpp -o CMakeFiles/main.dir/src/bullet.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/bullet.cpp -o CMakeFiles/main.dir/src/bullet.cpp.s
 
 CMakeFiles/main.dir/src/clockslow.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/clockslow.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/clockslow.cpp
+CMakeFiles/main.dir/src/clockslow.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/clockslow.cpp
 CMakeFiles/main.dir/src/clockslow.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/clockslow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/clockslow.cpp.o -MF CMakeFiles/main.dir/src/clockslow.cpp.o.d -o CMakeFiles/main.dir/src/clockslow.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/clockslow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/clockslow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/clockslow.cpp.o -MF CMakeFiles/main.dir/src/clockslow.cpp.o.d -o CMakeFiles/main.dir/src/clockslow.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/clockslow.cpp
 
 CMakeFiles/main.dir/src/clockslow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/clockslow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/clockslow.cpp > CMakeFiles/main.dir/src/clockslow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/clockslow.cpp > CMakeFiles/main.dir/src/clockslow.cpp.i
 
 CMakeFiles/main.dir/src/clockslow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/clockslow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/clockslow.cpp -o CMakeFiles/main.dir/src/clockslow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/clockslow.cpp -o CMakeFiles/main.dir/src/clockslow.cpp.s
 
 CMakeFiles/main.dir/src/enemy.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/enemy.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/enemy.cpp
+CMakeFiles/main.dir/src/enemy.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/enemy.cpp
 CMakeFiles/main.dir/src/enemy.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/enemy.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/enemy.cpp.o -MF CMakeFiles/main.dir/src/enemy.cpp.o.d -o CMakeFiles/main.dir/src/enemy.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/enemy.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/enemy.cpp.o -MF CMakeFiles/main.dir/src/enemy.cpp.o.d -o CMakeFiles/main.dir/src/enemy.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/enemy.cpp
 
 CMakeFiles/main.dir/src/enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/enemy.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/enemy.cpp > CMakeFiles/main.dir/src/enemy.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/enemy.cpp > CMakeFiles/main.dir/src/enemy.cpp.i
 
 CMakeFiles/main.dir/src/enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/enemy.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/enemy.cpp -o CMakeFiles/main.dir/src/enemy.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/enemy.cpp -o CMakeFiles/main.dir/src/enemy.cpp.s
 
 CMakeFiles/main.dir/src/entity.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/entity.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/entity.cpp
+CMakeFiles/main.dir/src/entity.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/entity.cpp
 CMakeFiles/main.dir/src/entity.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/entity.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/entity.cpp.o -MF CMakeFiles/main.dir/src/entity.cpp.o.d -o CMakeFiles/main.dir/src/entity.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/entity.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/entity.cpp.o -MF CMakeFiles/main.dir/src/entity.cpp.o.d -o CMakeFiles/main.dir/src/entity.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/entity.cpp
 
 CMakeFiles/main.dir/src/entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/entity.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/entity.cpp > CMakeFiles/main.dir/src/entity.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/entity.cpp > CMakeFiles/main.dir/src/entity.cpp.i
 
 CMakeFiles/main.dir/src/entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/entity.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/entity.cpp -o CMakeFiles/main.dir/src/entity.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/entity.cpp -o CMakeFiles/main.dir/src/entity.cpp.s
 
 CMakeFiles/main.dir/src/game.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/game.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp
+CMakeFiles/main.dir/src/game.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/game.cpp
 CMakeFiles/main.dir/src/game.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/game.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game.cpp.o -MF CMakeFiles/main.dir/src/game.cpp.o.d -o CMakeFiles/main.dir/src/game.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/game.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/game.cpp.o -MF CMakeFiles/main.dir/src/game.cpp.o.d -o CMakeFiles/main.dir/src/game.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/game.cpp
 
 CMakeFiles/main.dir/src/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/game.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp > CMakeFiles/main.dir/src/game.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/game.cpp > CMakeFiles/main.dir/src/game.cpp.i
 
 CMakeFiles/main.dir/src/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/game.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp -o CMakeFiles/main.dir/src/game.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/game.cpp -o CMakeFiles/main.dir/src/game.cpp.s
 
 CMakeFiles/main.dir/src/hard.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/hard.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/hard.cpp
+CMakeFiles/main.dir/src/hard.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/hard.cpp
 CMakeFiles/main.dir/src/hard.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/hard.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/hard.cpp.o -MF CMakeFiles/main.dir/src/hard.cpp.o.d -o CMakeFiles/main.dir/src/hard.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/hard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/hard.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/hard.cpp.o -MF CMakeFiles/main.dir/src/hard.cpp.o.d -o CMakeFiles/main.dir/src/hard.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/hard.cpp
 
 CMakeFiles/main.dir/src/hard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/hard.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/hard.cpp > CMakeFiles/main.dir/src/hard.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/hard.cpp > CMakeFiles/main.dir/src/hard.cpp.i
 
 CMakeFiles/main.dir/src/hard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/hard.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/hard.cpp -o CMakeFiles/main.dir/src/hard.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/hard.cpp -o CMakeFiles/main.dir/src/hard.cpp.s
 
 CMakeFiles/main.dir/src/health.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/health.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/health.cpp
+CMakeFiles/main.dir/src/health.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/health.cpp
 CMakeFiles/main.dir/src/health.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/health.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/health.cpp.o -MF CMakeFiles/main.dir/src/health.cpp.o.d -o CMakeFiles/main.dir/src/health.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/health.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/health.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/health.cpp.o -MF CMakeFiles/main.dir/src/health.cpp.o.d -o CMakeFiles/main.dir/src/health.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/health.cpp
 
 CMakeFiles/main.dir/src/health.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/health.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/health.cpp > CMakeFiles/main.dir/src/health.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/health.cpp > CMakeFiles/main.dir/src/health.cpp.i
 
 CMakeFiles/main.dir/src/health.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/health.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/health.cpp -o CMakeFiles/main.dir/src/health.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/health.cpp -o CMakeFiles/main.dir/src/health.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/main.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/mainwindow.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/mainwindow.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp
+CMakeFiles/main.dir/src/mainwindow.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/mainwindow.cpp
 CMakeFiles/main.dir/src/mainwindow.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/mainwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mainwindow.cpp.o -MF CMakeFiles/main.dir/src/mainwindow.cpp.o.d -o CMakeFiles/main.dir/src/mainwindow.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/mainwindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mainwindow.cpp.o -MF CMakeFiles/main.dir/src/mainwindow.cpp.o.d -o CMakeFiles/main.dir/src/mainwindow.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/mainwindow.cpp
 
 CMakeFiles/main.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/mainwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp > CMakeFiles/main.dir/src/mainwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/mainwindow.cpp > CMakeFiles/main.dir/src/mainwindow.cpp.i
 
 CMakeFiles/main.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/mainwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/mainwindow.cpp -o CMakeFiles/main.dir/src/mainwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/mainwindow.cpp -o CMakeFiles/main.dir/src/mainwindow.cpp.s
 
 CMakeFiles/main.dir/src/menu.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/menu.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/menu.cpp
+CMakeFiles/main.dir/src/menu.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/menu.cpp
 CMakeFiles/main.dir/src/menu.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/menu.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/menu.cpp.o -MF CMakeFiles/main.dir/src/menu.cpp.o.d -o CMakeFiles/main.dir/src/menu.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/menu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/menu.cpp.o -MF CMakeFiles/main.dir/src/menu.cpp.o.d -o CMakeFiles/main.dir/src/menu.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/menu.cpp
 
 CMakeFiles/main.dir/src/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/menu.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/menu.cpp > CMakeFiles/main.dir/src/menu.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/menu.cpp > CMakeFiles/main.dir/src/menu.cpp.i
 
 CMakeFiles/main.dir/src/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/menu.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/menu.cpp -o CMakeFiles/main.dir/src/menu.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/menu.cpp -o CMakeFiles/main.dir/src/menu.cpp.s
 
 CMakeFiles/main.dir/src/portal.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/portal.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/portal.cpp
+CMakeFiles/main.dir/src/portal.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/portal.cpp
 CMakeFiles/main.dir/src/portal.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/portal.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/portal.cpp.o -MF CMakeFiles/main.dir/src/portal.cpp.o.d -o CMakeFiles/main.dir/src/portal.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/portal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/portal.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/portal.cpp.o -MF CMakeFiles/main.dir/src/portal.cpp.o.d -o CMakeFiles/main.dir/src/portal.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/portal.cpp
 
 CMakeFiles/main.dir/src/portal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/portal.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/portal.cpp > CMakeFiles/main.dir/src/portal.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/portal.cpp > CMakeFiles/main.dir/src/portal.cpp.i
 
 CMakeFiles/main.dir/src/portal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/portal.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/portal.cpp -o CMakeFiles/main.dir/src/portal.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/portal.cpp -o CMakeFiles/main.dir/src/portal.cpp.s
 
 CMakeFiles/main.dir/src/score.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/score.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/score.cpp
+CMakeFiles/main.dir/src/score.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/score.cpp
 CMakeFiles/main.dir/src/score.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/score.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/score.cpp.o -MF CMakeFiles/main.dir/src/score.cpp.o.d -o CMakeFiles/main.dir/src/score.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/score.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/score.cpp.o -MF CMakeFiles/main.dir/src/score.cpp.o.d -o CMakeFiles/main.dir/src/score.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/score.cpp
 
 CMakeFiles/main.dir/src/score.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/score.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/score.cpp > CMakeFiles/main.dir/src/score.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/score.cpp > CMakeFiles/main.dir/src/score.cpp.i
 
 CMakeFiles/main.dir/src/score.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/score.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/score.cpp -o CMakeFiles/main.dir/src/score.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/score.cpp -o CMakeFiles/main.dir/src/score.cpp.s
 
 CMakeFiles/main.dir/src/sounds.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/sounds.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp
+CMakeFiles/main.dir/src/sounds.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/sounds.cpp
 CMakeFiles/main.dir/src/sounds.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/sounds.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sounds.cpp.o -MF CMakeFiles/main.dir/src/sounds.cpp.o.d -o CMakeFiles/main.dir/src/sounds.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/sounds.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sounds.cpp.o -MF CMakeFiles/main.dir/src/sounds.cpp.o.d -o CMakeFiles/main.dir/src/sounds.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/sounds.cpp
 
 CMakeFiles/main.dir/src/sounds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/sounds.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp > CMakeFiles/main.dir/src/sounds.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/sounds.cpp > CMakeFiles/main.dir/src/sounds.cpp.i
 
 CMakeFiles/main.dir/src/sounds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/sounds.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/sounds.cpp -o CMakeFiles/main.dir/src/sounds.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/sounds.cpp -o CMakeFiles/main.dir/src/sounds.cpp.s
 
 CMakeFiles/main.dir/src/spaceship.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/spaceship.cpp.o: /home/ilya/Projects/oldprojects/BlackholeRewrite/src/spaceship.cpp
+CMakeFiles/main.dir/src/spaceship.cpp.o: /home/ilya/Projects/oldprojects/Blackhole/src/spaceship.cpp
 CMakeFiles/main.dir/src/spaceship.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/src/spaceship.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/spaceship.cpp.o -MF CMakeFiles/main.dir/src/spaceship.cpp.o.d -o CMakeFiles/main.dir/src/spaceship.cpp.o -c /home/ilya/Projects/oldprojects/BlackholeRewrite/src/spaceship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/src/spaceship.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/spaceship.cpp.o -MF CMakeFiles/main.dir/src/spaceship.cpp.o.d -o CMakeFiles/main.dir/src/spaceship.cpp.o -c /home/ilya/Projects/oldprojects/Blackhole/src/spaceship.cpp
 
 CMakeFiles/main.dir/src/spaceship.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/spaceship.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/BlackholeRewrite/src/spaceship.cpp > CMakeFiles/main.dir/src/spaceship.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilya/Projects/oldprojects/Blackhole/src/spaceship.cpp > CMakeFiles/main.dir/src/spaceship.cpp.i
 
 CMakeFiles/main.dir/src/spaceship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/spaceship.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/BlackholeRewrite/src/spaceship.cpp -o CMakeFiles/main.dir/src/spaceship.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilya/Projects/oldprojects/Blackhole/src/spaceship.cpp -o CMakeFiles/main.dir/src/spaceship.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -354,7 +354,7 @@ main: /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.6.1
 main: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
 main: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -366,6 +366,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/ilya/Projects/oldprojects/BlackholeRewrite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilya/Projects/oldprojects/BlackholeRewrite /home/ilya/Projects/oldprojects/BlackholeRewrite /home/ilya/Projects/oldprojects/BlackholeRewrite/build /home/ilya/Projects/oldprojects/BlackholeRewrite/build /home/ilya/Projects/oldprojects/BlackholeRewrite/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ilya/Projects/oldprojects/Blackhole/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilya/Projects/oldprojects/Blackhole /home/ilya/Projects/oldprojects/Blackhole /home/ilya/Projects/oldprojects/Blackhole/build /home/ilya/Projects/oldprojects/Blackhole/build /home/ilya/Projects/oldprojects/Blackhole/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

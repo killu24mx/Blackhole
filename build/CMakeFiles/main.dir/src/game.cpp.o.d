@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/game.cpp.o: \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/game.cpp \
+ /home/ilya/Projects/oldprojects/Blackhole/src/game.cpp \
  /usr/include/stdc-predef.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/game.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/game.h \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -49,9 +49,9 @@ CMakeFiles/main.dir/src/game.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/blackhole.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/spaceship.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/entity.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/blackhole.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/spaceship.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/entity.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -242,8 +242,8 @@ CMakeFiles/main.dir/src/game.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/13/iostream \
  /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/mainwindow.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/game_parametrs.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/mainwindow.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/game_parametrs.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
@@ -251,13 +251,13 @@ CMakeFiles/main.dir/src/game.cpp.o: \
  /usr/include/c++/13/bits/hashtable_policy.h \
  /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/bullet.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/enemy.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/hard.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/health.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/portal.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/clockslow.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/sounds.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/bullet.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/enemy.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/hard.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/health.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/portal.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/clockslow.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/sounds.h \
  /usr/include/SFML/Audio.hpp /usr/include/SFML/Audio/InputSoundFile.hpp \
  /usr/include/SFML/Audio/Export.hpp /usr/include/SFML/Audio/Listener.hpp \
  /usr/include/SFML/Audio/Music.hpp \
@@ -275,8 +275,8 @@ CMakeFiles/main.dir/src/game.cpp.o: \
  /usr/include/SFML/Audio/SoundFileFactory.inl \
  /usr/include/SFML/Audio/SoundFileReader.hpp \
  /usr/include/SFML/Audio/SoundFileWriter.hpp \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/background.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/score.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/animation.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/src/../include/menu.h \
- /home/ilya/Projects/oldprojects/BlackholeRewrite/./include/game.h
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/background.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/score.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/animation.h \
+ /home/ilya/Projects/oldprojects/Blackhole/src/../include/menu.h \
+ /home/ilya/Projects/oldprojects/Blackhole/./include/game.h

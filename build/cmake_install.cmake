@@ -1,4 +1,4 @@
-# Install script for directory: /home/ilya/Projects/oldprojects/BlackholeRewrite
+# Install script for directory: /home/ilya/Projects/oldprojects/Blackhole
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ilya/Projects/oldprojects/BlackholeRewrite/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ilya/Projects/oldprojects/Blackhole/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
