@@ -69,10 +69,6 @@ void draw_entity(Entity *entity, sf::RenderWindow *window)
 }
 
 
-
-
-
-
 sf::Texture& Textures::_background()
 {
     static sf::Texture texture = get_texture("sprites/cosmos.jpg");
