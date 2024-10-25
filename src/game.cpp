@@ -74,8 +74,8 @@ void Game::play()
         animate(delta);
 
         slow(time);
-
-        game_speed += GameParametrs::default_boost;
+ 
+        game_speed += boost * (float)delta/300.0;
 
         window->display();
     }
@@ -319,13 +319,11 @@ void Game::slow(unsigned int time)
 
 void Game::stop()
 {
-    static float src_game_speed = game_speed;
     if(game_speed){
-        src_game_speed = game_speed;
-        game_speed = 0;
+        last_speed = game_speed;
+        game_speed = 0.0;
         boost = 0;
         player.pause_all();
-
     }
   
     Stop_menu& menu = Stop_menu::get_instance();
@@ -334,7 +332,7 @@ void Game::stop()
     switch (exit)
     {
     case Stop_menu::StopMenuExitCode::CONTINUE:
-        game_speed = src_game_speed;
+        game_speed = last_speed;
         was_stoped = false;
         player.resume();
         boost = GameParametrs::default_boost;
@@ -348,7 +346,7 @@ void Game::stop()
         game_is_going = false;
         break;
 
-    default:
+    case Stop_menu::StopMenuExitCode::SKIP:
         break;
     }
 }
@@ -445,7 +443,8 @@ void Game::update(unsigned int delta)
         Enemy* entity = list_of_enemys[i];
         entity->update(delta);
         if(entity->overcame_the_lower_border()){
-            if(!entity->was_exploid)(list_of_enemys,i);
+            if(!entity->was_exploid)
+                kill_entity(list_of_enemys,i);
         }
     }
         

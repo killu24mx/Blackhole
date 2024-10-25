@@ -45,6 +45,7 @@ private:
     bool was_stoped = false;
     bool gameover = false;
     bool game_is_going = true;
+    float last_speed = game_speed;
 
     
     //list of entities

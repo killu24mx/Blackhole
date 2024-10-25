@@ -1,4 +1,4 @@
-build
-fonts
-media
-sprites
+build/
+fonts/
+media/
+sprites/

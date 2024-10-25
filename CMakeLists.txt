@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-
-
+project(Blackhole)
 add_executable(main
     src/animation.cpp
     src/background.cpp
